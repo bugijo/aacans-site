@@ -1,0 +1,1 @@
+Coloque aqui o arquivo oficial da logo AACANS quando ele estiver disponível no repositório. O componente de marca atual usa um símbolo vetorial abstrato para manter a interface funcional sem alterar ou inventar a logo oficial.

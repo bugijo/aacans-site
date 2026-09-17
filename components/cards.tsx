@@ -1,0 +1,4 @@
+import { Heart, Info, Users, HandHeart, ShieldCheck, BookOpen, Utensils, Megaphone, Network, Compass } from "lucide-react";
+const icons=[Heart,Compass,BookOpen,Users,Network,HandHeart,Utensils,Megaphone,ShieldCheck,Info];
+export const fronts=['Acolhimento','Orientação','Informação sobre direitos e benefícios','Apoio ao paciente','Orientação aos familiares','Encaminhamento para serviços disponíveis','Apoio para acesso a recursos','Campanhas e ações solidárias','Apoio psicológico através de parceiros','Construção de uma rede de parceiros'];
+export function FrontCards(){return <div className="grid">{fronts.map((name,i)=>{const Icon=icons[i];return <article className="card" key={name}><div className="icon"><Icon size={20}/></div><h3>{name}</h3><p>Uma frente que poderá fazer parte da atuação da AACANS, conforme estrutura, recursos e parcerias.</p></article>})}</div>}
